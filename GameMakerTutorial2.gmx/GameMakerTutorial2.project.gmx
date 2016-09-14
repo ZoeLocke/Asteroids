@@ -22,7 +22,9 @@
     <sprite>sprites\spr_player_dead</sprite>
     <sprite>sprites\spr_asteroid_small</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bgr_starfield</background>
+  </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_small</font>
