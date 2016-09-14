@@ -41,8 +41,8 @@ part_type_direction(particle_jetwash, obj_player.direction - 210, obj_player.dir
 part_type_life(particle_jetwash, 60, 120);
 
 //emitter
-emitter_jetwash = part_emitter_create(particle);
-part_emitter_stream(particle, emitter_jetwash, particle_jetwash, 2);
+//emitter_jetwash = part_emitter_create(particle);
+//part_emitter_stream(particle, emitter_jetwash, particle_jetwash, 2);
 </string>
           </argument>
         </arguments>
@@ -66,8 +66,8 @@ part_emitter_stream(particle, emitter_jetwash, particle_jetwash, 2);
           <argument>
             <kind>1</kind>
             <string>///Clear the emitter from memory
-part_emitter_destroy(particle, emitter_jetwash);
-//part_system_destroy(jetwash);
+//part_emitter_destroy(particle, emitter_jetwash);
+part_system_destroy(jetwash);
 </string>
           </argument>
         </arguments>
@@ -102,7 +102,7 @@ part_emitter_destroy(particle, emitter_jetwash);
     ,ps_distr_gaussian
 );*/
 
-///Move to track ship
+/*///Move to track ship
 part_emitter_region(
     particle
     ,emitter_jetwash
@@ -112,7 +112,7 @@ part_emitter_region(
     ,obj_player.y
     ,ps_shape_line
     ,ps_distr_gaussian
-);
+);*/
 </string>
           </argument>
         </arguments>
