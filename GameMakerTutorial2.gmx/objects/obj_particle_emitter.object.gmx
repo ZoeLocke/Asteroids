@@ -34,9 +34,9 @@ part_system_depth(particle, 0);
 //part
 particle_jetwash = part_type_create();
 part_type_shape(particle_jetwash, pt_shape_square);
-part_type_orientation(particle_jetwash, 0, 360, 0, 0, 1);
+part_type_orientation(particle_jetwash, 0, 360, 1, 1, 0);
 part_type_size(particle_jetwash, 0.0005, 0.005, 0.001, 0.001);
-part_type_speed(particle_jetwash, 0.5, 1, 0.005, 0);
+part_type_speed(particle_jetwash, 0.5, 1, -0.005, 0);
 part_type_direction(particle_jetwash, obj_player.direction - 210, obj_player.direction - 160, 0.05, 1);
 part_type_life(particle_jetwash, 60, 120);
 
