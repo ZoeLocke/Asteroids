@@ -81,7 +81,10 @@ speed = clamp(random(6), 2, 6);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Update score and play sound
+            <string>///Update score, spawn debris, and play sound
+var instance_x = x;
+var instance_y = y;
+with(obj_particle_emitter) part_particles_create(particle, instance_x, instance_y, particle_debris, irandom(5) + 5);
 audio_play_sound(snd_asteroid_explode, 0, 0);
 global.points += 50;
 </string>
