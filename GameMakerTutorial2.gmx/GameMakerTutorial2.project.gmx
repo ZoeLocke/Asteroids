@@ -21,14 +21,17 @@
     <sprite>sprites\spr_asteroid</sprite>
     <sprite>sprites\spr_player_dead</sprite>
     <sprite>sprites\spr_asteroid_small</sprite>
+    <sprite>sprites\spr_overlay</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_starfield</background>
+    <background>background\bg_overlay</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_small</font>
     <font>fonts\fnt_large</font>
+    <font>fonts\fnt_title</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_asteroid</object>
@@ -37,13 +40,16 @@
     <object>objects\obj_player</object>
     <object>objects\obj_player_dead</object>
     <object>objects\obj_particle_emitter</object>
-    <object>objects\obj_restart</object>
+    <object>objects\obj_control_screens</object>
+    <object>objects\obj_game_state_control</object>
     <object>objects\obj_spawner</object>
     <object>objects\obj_variables</object>
     <object>objects\obj_debug_display</object>
     <object>objects\obj_music</object>
+    <object>objects\obj_overlay</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
     <room>rooms\rm_game</room>
   </rooms>
   <help>

@@ -115,7 +115,7 @@ if(global.life &gt; 0){
     //Set the respawn timer
     with(obj_spawner) alarm[0] = 120;
 } else{ 
-    instance_create(0, 0, obj_restart);
+    instance_create(0, 0, obj_control_screens);
     //with(obj_particle_emitter)instance_destroy();
 };
 </string>
