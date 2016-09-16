@@ -37,16 +37,16 @@
     <object>objects\obj_asteroid</object>
     <object>objects\obj_asteroid_s</object>
     <object>objects\obj_bullet</object>
-    <object>objects\obj_player</object>
-    <object>objects\obj_player_dead</object>
-    <object>objects\obj_particle_emitter</object>
     <object>objects\obj_control_screens</object>
-    <object>objects\obj_game_state_control</object>
-    <object>objects\obj_spawner</object>
-    <object>objects\obj_variables</object>
     <object>objects\obj_debug_display</object>
+    <object>objects\obj_game_state_control</object>
     <object>objects\obj_music</object>
     <object>objects\obj_overlay</object>
+    <object>objects\obj_particle_emitter</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_player_dead</object>
+    <object>objects\obj_spawner</object>
+    <object>objects\obj_variables</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

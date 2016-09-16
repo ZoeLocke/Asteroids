@@ -106,7 +106,10 @@ speed = 0.5 + random(2);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Spawn children and play sound
+            <string>///Spawn children and debris, and play sound
+var instance_x = x;
+var instance_y = y;
+with(obj_particle_emitter) part_particles_create(particle, instance_x, instance_y, particle_debris, irandom(10) + 10);
 audio_play_sound(snd_asteroid_explode, 0, 0);
 repeat (2) {instance_create(x, y, obj_asteroid_s);}
 </string>
