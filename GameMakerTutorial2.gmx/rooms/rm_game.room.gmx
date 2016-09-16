@@ -56,6 +56,7 @@
     <instance objName="obj_spawner" x="32" y="0" name="inst_F3D3A9AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_music" x="64" y="0" name="inst_2749B2A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_particle_emitter" x="96" y="0" name="inst_08CF25B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_game_state_control" x="128" y="0" name="inst_53323261" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
