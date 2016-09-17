@@ -55,6 +55,7 @@
     <room>rooms\rm_splash_screens</room>
     <room>rooms\rm_start</room>
     <room>rooms\rm_game</room>
+    <room>rooms\rm_pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
