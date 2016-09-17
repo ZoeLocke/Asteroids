@@ -13,6 +13,7 @@
     <sound>sound\snd_ship_engine_long</sound>
     <sound>sound\bgm_slow_burn</sound>
     <sound>sound\snd_ship_explode_alt</sound>
+    <sound>sound\bgm_mining</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
