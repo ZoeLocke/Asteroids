@@ -27,6 +27,8 @@
   <backgrounds name="background">
     <background>background\bgr_starfield</background>
     <background>background\bg_overlay</background>
+    <background>background\spl_gamemaker</background>
+    <background>background\spl_built_by</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -50,6 +52,7 @@
     <object>objects\obj_variables</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_splash_screens</room>
     <room>rooms\rm_start</room>
     <room>rooms\rm_game</room>
   </rooms>
