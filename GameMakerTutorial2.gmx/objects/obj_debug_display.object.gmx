@@ -32,7 +32,7 @@ draw_set_font(fnt_small);
 draw_set_color(c_white);
 
 
-draw_text(room_width - 64, room_height - 32, instance_exists(obj_asteroid));
+//draw_text(room_width - 64, room_height - 32, room_persistent);
 </string>
           </argument>
         </arguments>

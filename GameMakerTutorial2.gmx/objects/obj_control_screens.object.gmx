@@ -53,19 +53,23 @@ instance_create(0, 0, obj_overlay);
 
 //--Start--//
 if(room_get_name(room) == 'rm_start'){
+    //Title
     draw_set_font(fnt_title);
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
     draw_set_color(c_white);
     draw_text(room_width / 2, (room_height / 2) - 25, 'ASTEROIDS')
     
+    //Instruction
     draw_set_font(fnt_small);
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
     draw_set_color(c_white);
     draw_text(room_width / 2, (room_height / 2) + 25, 'press any key to start');
-}else{
+};
+
 //--Retsart--//
+if(room_get_name(room) == 'rm_game'){
     //Score
     draw_set_font(fnt_large);
     draw_set_halign(fa_center);
@@ -79,6 +83,23 @@ if(room_get_name(room) == 'rm_start'){
     draw_set_valign(fa_middle);
     draw_set_color(c_white);
     draw_text(room_width / 2, (room_height / 2) + 10, 'press R to restart');
+};
+
+//--Paused--//
+if(room_get_name(room) == 'rm_pause'){
+    //Paused
+    draw_set_font(fnt_large);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    draw_set_color(c_white);
+    draw_text(room_width / 2, (room_height / 2) - 25, 'PAUSED');
+    
+    ///Instruction
+    draw_set_font(fnt_small);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    draw_set_color(c_white);
+    draw_text(room_width / 2, (room_height / 2) + 10, 'press ESC to continue');
 };
 </string>
           </argument>
